@@ -1,13 +1,17 @@
 <template>
-  <HelloWorld />
+  <main>
+    <Navegacion />
+    <Table />
+  </main>
 </template>
-
 <script>
-import HelloWorld from '../components/HelloWorld';
+import Navegacion from "../components/Navegacion";
+import Table from "../components/Table";
 
 export default {
   components: {
-    HelloWorld,
-  },
+    Navegacion,
+    Table
+  }
 };
 </script>
