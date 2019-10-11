@@ -15,9 +15,6 @@
           <td>{{task.title}}</td>
           <td>{{task.userId}}</td>
           <td>{{task.completed}}</td>
-          <td><v-checkbox
-            :value=task.completed
-    ></v-checkbox></td>
         </tr>
       </tbody>
     </template>
